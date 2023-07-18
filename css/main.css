@@ -69,7 +69,7 @@ nav{
     display: flex;
     /* flex-wrap: wrap-reverse; */
     flex-direction: row-reverse;
-    margin-right: 245px;
+    margin-right: 300px;
     background: #FFF;
     
     
@@ -88,6 +88,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    margin-left: 2.5rem;
     /* background-position: right 100px bottom; */
 }
 .text{
