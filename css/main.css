@@ -50,4 +50,31 @@ nav{
 }
 .list-icon svg{
     margin-left: 20px;
+    width: 33.916px;
+    height: 24px;
+}
+
+
+
+
+/* Media Quary */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-bottom: 3.9rem;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu ul li{
+        margin-bottom: 2.25rem;
+    
+    }
+    .list-icon{
+        width: 262px;
+        height: 56px;
+        margin-top: 3.9rem;
+    }
 }
