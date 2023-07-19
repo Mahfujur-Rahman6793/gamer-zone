@@ -66,45 +66,32 @@ nav{
 
 /* start design of the banner section */
 .play-banner{
-    /* margin-left: 15.31rem; */
     display: flex;
-    /* flex-wrap: wrap-reverse; */
     flex-direction: row-reverse;
-    margin-right: 300px;
-    background: #FFF;
-    
-    
-    
-}
-.images{
-    width: 50%;
-    height: 100vh;
+    justify-content: space-around;
+    margin-right: 15.5rem;
 }
 .beautiful-background-image{
     display: flex;
-    background: url('../images/Group\ 18.png');
-    width: 100%;
-    height: 80%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    margin-left: 2.5rem;
-    /* background-position: right 100px bottom; */
+    justify-content: start;
+}
+.beautiful-background-image img{
+   width: 100%;
 }
 .text{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
-    flex: 1;
-    /* width: 600px; */
+    padding-left: 240px;
+    margin-right: 68px;
     width: 50%;
-    height: 700px;
-    background-image: url('../images/Group\ 14.png');
-    padding: 5.25rem 15.31rem;
-    background-size: 100%;
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    
+    background: url('../images/Group\ 14.png'),linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 left bottom;
+    /* background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+
+
 }
 
 .text h3{
@@ -136,7 +123,7 @@ nav{
     margin-top: 1rem;
 }
 .play-rules p > svg{
-    padding-right: .8rem;
+    padding-right: 2rem;
 }
 
 .btn-signin{
@@ -151,39 +138,29 @@ nav{
 /* game-banner section */
 
 .game-banner{
-    /* margin-left: 15.31rem; */
     display: flex;
-    /* flex-wrap: wrap-reverse; */
-    /* flex-direction: row-reverse; */
-    margin-right: 300px;
-    background: #FFF;
-    
-    
-    
-}
-.images{
-    width: 70%;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 245px;
+    background: #FFF;  
 }
 .game-images{
     display: flex;
-    background: url('../images/Group\ 65.png');
+    justify-content: start;
+}
+.game-images img{
     width: 100%;
-    height: 80%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    margin-left: 2.5rem;
-    /* background-position: right 100px bottom; */
 }
 .game-text{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    align-items: space-between;
-    width: 30%;
-    height: 100vh;
+    align-items: flex-end;
+    width: 50%;
+    padding: 95px 0;
+    margin-left: 52px;
     
 
 }
@@ -278,6 +255,72 @@ nav{
     margin: 5px;
     width: auto;
     /* background-position: right 100px bottom; */
+}
+
+.game-banner{
+    padding-left: 24px;
+    margin-right: 24px;
+    
+    
+    
+}
+.images{
+    width: 100%;
+    height: 100vh;
+}
+.game-images{
+    display: flex;
+    background: url('../images/pngwing\ 4.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* background-position: right 100px bottom; */
+}
+.game-text{
+    margin-left: 15px;
+    
+
+}
+.game-text h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.game-text p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 24px;
+}
+.btn-more{
+    text-align: end;
+    margin-bottom: 24px;
+}
+.more{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    
+}
+.purpose{
+    margin: 0;
+}
+.game-text h4{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
 }
 }
 
