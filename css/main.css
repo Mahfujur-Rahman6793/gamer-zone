@@ -19,7 +19,7 @@ nav{
     border-radius: 3rem;
     padding: 1.3rem 2.5rem;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     border: none;
 
@@ -82,8 +82,8 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 240px;
-    margin-right: 68px;
+    padding-left: 15rem;
+    margin-right: 4.25rem;
     width: 50%;
     background: url('../images/Group\ 14.png'),linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     background-repeat: no-repeat;
@@ -141,8 +141,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 240px;
-    margin-right: 245px;
+    margin-left: 15rem;
+    margin-right: 15.31rem;
     background: #FFF;  
 }
 .game-images{
@@ -159,14 +159,14 @@ nav{
     justify-content: center;
     align-items: flex-end;
     width: 50%;
-    padding: 95px 0;
+    padding: 5.94rem 0;
     margin-left: 52px;
     
 
 }
 .game-text h3{
     text-align: right;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -177,14 +177,14 @@ nav{
 .game-text p{
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     line-height: 30px; 
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 .btn-more{
     text-align: end;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 .more{
     border-radius: 48px;
@@ -197,7 +197,7 @@ nav{
 .game-text h4{
     color: #534C64;
     text-align: right;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 45px; 
 }
@@ -207,7 +207,7 @@ nav{
 .funny-videos{
     display: flex;
     flex-direction: column;
-    padding: 245px;
+    padding: 15.31rem;
     width: auto;
     height: auto;
     background: #FFF;
@@ -215,17 +215,17 @@ nav{
 .funny-videos h3{
     color: #0B0223;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 .funny-videos p{
     color: #534C64;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 .image-part{
     display: flex;
@@ -237,7 +237,7 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -252,7 +252,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 320px 420px;
     background-position: bottom;
-    margin-right: 24px;
+    margin-right: 1.5rem;
     
 }
 .box p{
@@ -300,7 +300,7 @@ nav{
   .innertext p{
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     line-height: 30px; 
   }
@@ -313,15 +313,15 @@ nav{
   }
   .instant-play-text h3, .online-play-text h3{
     text-align: right;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 60px; /* 125% */
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
 .instant-img{
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 9.4rem;
     
     
 }
@@ -351,10 +351,10 @@ nav{
 }
 .online-play-text p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     line-height: 30px; 
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .online-innertext{
@@ -363,11 +363,11 @@ nav{
     align-items: center;
     justify-content: center;
     width: 60%;
-    margin-left: 240px;
+    margin-left: 15rem;
 }
 .online-img{
         position: relative;
-        margin-bottom: 150px;  
+        margin-bottom: 9.4rem;  
         
 }
 .spider-man{
@@ -389,7 +389,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 7.5rem;
     
 }
 .types:hover{
@@ -442,11 +442,11 @@ nav{
     max-width: 814px;
     flex-wrap: wrap;
     align-items: center;
-    gap: 60px;
+    gap: 3.75rem;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 2rem;
     color: white;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .svg-btn{
@@ -454,7 +454,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-top: 66px;
+    margin-top: 4rem;
     border: none;
     color: white;
     
@@ -462,22 +462,22 @@ nav{
 .rules-condition{
     display: flex;
     gap: 60px;
-    margin-top: 74px;
+    margin-top: 4.6rem;
     max-width: 708px;
     flex-wrap: wrap;
 }
 .rules-condition p {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 .lastpart-footer{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    margin-top: 28px;
+    margin-top: 1.75rem;
     margin-bottom: 130px;
 }
 
