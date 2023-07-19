@@ -260,10 +260,12 @@ nav{
     height: 400px;
     margin-top: 30px;
 }
+
 .box:hover{
     transform: scale(1.2,1.2);
     background-color: red;
     box-shadow: 5px 10px #888888;
+    
 }
 
 
@@ -388,13 +390,14 @@ nav{
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
+    
 }
 .types:hover{
     border: 1px solid #FF42A5;
 }
 .types-of-games{
-    width: 1399px;
-    height: 188.167px;
+    max-width: 1399px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -565,7 +568,7 @@ nav{
     
 }
 .funny-videos h3,p{
-    width: 100%;
+    width: calc(100%- 10% - 24px);
     text-align: center;
     margin-left: 10%;
   
@@ -610,6 +613,76 @@ nav{
     bottom: -50px;
     left: -30px;
     
+}
+
+/* funny-videos */
+.box{
+    margin-top: 70px;
+    text-align: center;
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+}
+.online-play{
+    flex-direction: column;
+    margin: 15px;
+    margin-top: 140px;
+
+  }
+  .online-play-text{
+    width: 100%;
+    /* margin-right: 100px; */
+  }
+  .online-innertext{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+.online-play-text h3, .online-play-text p{
+    text-align: center;
+}
+
+.online-innertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 240px;
+}
+.online-img{
+        position: relative;
+        margin-bottom: 150px;  
+        
+}
+.spider-man{
+        width: 634.833px;
+        height: 650px;
+}
+.cat{
+        position: absolute;
+        bottom: -100px;
+        left: -150px;
+        width: 318.5px;
+        height: 365.083px;
+}
+.online-play-text h3{
+    text-align: start;
 }
 
 }
@@ -716,13 +789,33 @@ nav{
 
 .image-part{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2,1fr);
     gap: 30px;
     width: 100%;
     margin-left: 10%;
 
 }
+.box{
+    margin-top: 70px;
+    text-align: center;
 
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+}
 .instant-play{
     flex-direction: column;
     margin: 15px;
