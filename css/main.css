@@ -256,8 +256,10 @@ nav{
     margin-right: 24px;
     
 }
-.box1:hover{
-    
+.box:hover{
+    transform: scale(1.2,1.2);
+    background-color: red;
+    box-shadow: 5px 10px #888888;
 }
 
 
