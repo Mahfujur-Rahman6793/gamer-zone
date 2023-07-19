@@ -309,7 +309,7 @@ nav{
     -webkit-text-fill-color: transparent;
     
   }
-  .instant-play-text h3{
+  .instant-play-text h3, .online-play-text h3{
     text-align: right;
     font-size: 48px;
     font-weight: 700;
@@ -319,23 +319,69 @@ nav{
 
 .instant-img{
     position: relative;
+    margin-bottom: 150px;
     
     
 }
 .horse{
-    width: 50%;
+    width: 634.833px;
+    height: 650px;
 }
 .doll{
     position: absolute;
     bottom: -100px;
     left: -150px;
-    width: 50%;
-    
-
+    width: 318.5px;
+    height: 365.083px;
 }
 
+/* start online game part */
+.online-play{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 240px;
+    
+}
+.online-play-text{
+    width: 50%;
+}
+.online-play-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 20px;
+}
 
-
+.online-innertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 240px;
+}
+.online-img{
+        position: relative;
+        margin-bottom: 150px;  
+        
+}
+.spider-man{
+        width: 634.833px;
+        height: 650px;
+}
+.cat{
+        position: absolute;
+        bottom: -100px;
+        left: -150px;
+        width: 318.5px;
+        height: 365.083px;
+}
+.online-play-text h3{
+    text-align: start;
+}
 
 
 
@@ -446,19 +492,17 @@ nav{
   }
 .instant-img{
     width: 100%;
+    margin: 0;
+    padding: 0;
     margin-top: 45px;
-    flex: 1;
     margin-bottom: 60px;
-    margin-left: 150px;
-
-
-    
-    
+ 
 }
 .horse{
     width: 100%;
 }
 .doll{
+  
     width: 100%;
     bottom: -50px;
     left: -30px;
@@ -554,5 +598,57 @@ nav{
     width: 100%;
     margin-left: 10%;
 
+}
+
+.funny-videos{
+    padding: 24px;
+    
+}
+.funny-videos h3,p{
+    width: 100%;
+    text-align: center;
+    margin-left: 10%;
+  
+}
+
+.image-part{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    margin-left: 10%;
+
+}
+
+.instant-play{
+    flex-direction: column;
+    margin: 15px;
+    margin-top: 140px;
+
+  }
+  .instant-play-text{
+    width: 100%;
+    /* margin-right: 100px; */
+  }
+  .innertext{
+    width: 90%;
+  }
+.instant-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 60px;
+ 
+}
+.horse{
+    width: 100%;
+}
+.doll{
+  
+    width: 100%;
+    bottom: -50px;
+    left: -30px;
+    
 }
 }
